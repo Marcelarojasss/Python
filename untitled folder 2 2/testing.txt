@@ -1,0 +1,85 @@
+ASSIGNMENT 5 TEST CASES
+
+QUESTION 1
+-------
+output
+Welcome to Marcela's hotel!
+How many guests are checking in?
+------
+input
+: 2
+------
+output
+Enter your name:
+Enter your room number:
+------
+input
+:Marcela
+:3
+------
+output
+Enter your room type ('Suite', 'StandardRoom', 'TaylorSuite'):
+When is your check-out date?
+------
+input
+:Suite
+:6
+------
+output
+Suite 3 will be available for check-in on day 6.
+How many services are you getting?
+-----
+input:4
+Enter the name of the service: Drinks
+Enter the cost of the service: $30
+Enter the name of the service: Massage
+Enter the cost of the service: $70
+Enter the name of the service: Movie
+Enter the cost of the service: $30
+Enter the name of the service: Sauna
+Enter the cost of the service: $10
+-------
+output
+Thank you for staying with us, Marcela!
+Here is your total bill:
+Drinks
+Massage
+Movie
+Sauna
+Total bill: $140
+--------
+How many services are you getting? 2
+Enter the name of the service: pool
+Enter the cost of the service: $50
+Enter the name of the service: food
+Enter the cost of the service: $34
+
+Here is your total bill
+Services:
+pool
+food
+Total bill $84
+-------------------------------------------------------------
+QUESTION 2
+
+How many values would you like to add to the stack? 3
+Enter value 1: 7
+Enter value 2: 2
+Enter value 3: 3
+Current stack contents: ['7', '2', '3']
+Popped value: 3
+Top value: 2
+Reversed stack contents: ['2', '7']
+------------------------------------------------------
+------------------------------------------------------
+run #2
+How manhy items would you like to add to the stack? 5
+Enter value 1: [hi, hey]
+Enter value 2: 89098
+Enter value 3: marcela
+Enter value 4: yalda
+Enter value 5: josh
+Current stack contents: ['[hi, hey]', '89098', 'marcela', 'yalda', 'josh']
+Popped value: josh
+Top value: yalda
+Reversed stack contents: ['yalda', 'marcela', '89098', '[hi, hey]']
